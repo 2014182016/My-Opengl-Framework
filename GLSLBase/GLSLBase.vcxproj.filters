@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSLBase.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadPng.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMesh.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLight.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BlurFilter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadPng.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMesh.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="UniformBuffer.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BlurFilter.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Line.fs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\Line.vs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\Material.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\Lighting.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\PassConstants.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\Fullscreen.fs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\Fullscreen.vs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\NormalVisualization.fs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\NormalVisualization.gs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\NormalVisualization.vs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\Forward.fs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\Forward.vs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\ShadowMap.fs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\ShadowMap.vs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\OmnidirectionalShadowMap.fs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\OmnidirectionalShadowMap.gs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\OmnidirectionalShadowMap.vs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\Blur.fs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\LightVolume.fs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\LightVolume.vs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\PostProcess.fs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\Opaque.fs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\VolumetricLightScattering.fs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\PostProcess.fs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\PostProcess.fs" />
+    <None Include="Shaders\RadialBlur.fs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\PostProcessConstants.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\PostProcess.fs" />
+    <None Include="Shaders\CascadedShadowMap.fs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\CascadedShadowMap.gs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shaders\CascadedShadowMap.vs">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{a7fcb93d-3717-43ab-b316-e9d0ce5b8225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{67bf60d2-2daa-4412-a92a-1ef604d4703f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{281c75ca-d516-457d-94dd-38314bf09c82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -2,7 +2,7 @@
 
 한국산업기술대학교 박세준 학생이 Opengl로 제작한 포트폴리오 프로젝트입니다.  
 기본적으로 Opengl 학습 목적으로 제작하였고, 렌더링 부분에 집중하여 개발하였습니다.  
-https://learnopengl.com/를 참고하여 코드를 제작하였습니다.
+https://learnopengl.com/ 를 참고하여 코드를 제작하였습니다.
 실행파일은 GLSLBase/GLSLBase.exe입니다.  
 다른 관련사항은 2020 Opengl_포트폴리오_박세준.pptx를 확인해주십시요.  
 

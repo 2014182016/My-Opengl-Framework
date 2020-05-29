@@ -162,7 +162,7 @@ void Scene::CreateLights()
 	dirLight->SetStrength(glm::vec3(1.0f, 1.0f, 1.0f));
 	dirLight->SetPosition(-50.0f, 10.0f, 0.0f);
 	dirLight->SetRotation(60.0f, 70.0f, 0.0f);
-	dirLight->SetEnabledLightShaft(false);
+	dirLight->SetEnabledLightShaft(true);
 	m_Lights.push_back(std::move(dirLight));
 }
 

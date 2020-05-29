@@ -76,7 +76,7 @@ void main()
 			directLight += ComputeLighting(g_Lights[index], material, fs_in.worldPos, normal, toEye, g_EyePos);
 		}
 	}
-	vec3 litColor = g_Ambient.rgb + (directLight * ao) + g_Material.m_Emissive;
+	vec3 litColor = g_Ambient.rgb * diffuse.rgb + (directLight * ao) + g_Material.m_Emissive;
 
 	out_FragColor = vec4(litColor, diffuse.a);
 
